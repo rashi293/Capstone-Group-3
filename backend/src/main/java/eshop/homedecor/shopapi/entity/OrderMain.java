@@ -154,7 +154,9 @@ public class OrderMain implements Serializable {
 		this.updateTime = updateTime;
 	}
     
-    public OrderMain() {
-    	
-    }
+	public OrderMain()
+	{
+		
+	}
+    
 }

@@ -54,10 +54,11 @@ public class ProductInOrder {
     @Min(1)
     private Integer count;
     
-    public ProductInOrder() {
+    public ProductInOrder()
+    {
     	
     }
-
+    
 
     public ProductInOrder(ProductInfo productInfo, Integer quantity) {
         this.productId = productInfo.getProductId();

@@ -65,9 +65,12 @@ public class Cart implements Serializable {
 	public void setProducts(Set<ProductInOrder> products) {
 		this.products = products;
 	}
+	
+	public Cart()
+	{
+		
+	}
     
-    public Cart() {
-    	
-    }
+   
 
 }

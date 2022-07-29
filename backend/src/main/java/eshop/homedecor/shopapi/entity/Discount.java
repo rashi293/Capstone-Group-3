@@ -36,7 +36,9 @@ public class Discount {
 	public void setStatus(Long status) {
 		this.status = status;
 	}
-	public Discount(){
+	
+	public Discount()
+	{
 		
 	}
 
